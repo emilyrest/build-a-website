@@ -4,43 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Stuff You Should Know</title>
 </head>
 <body>
-<  <!-- Include the tag for introductory content -->
->
-    <!-- Display stuff you should know logo nested in an anchor tag to link to index.html -->
-  
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+
+  <header role="banner">
+    <a href="index.html" alt="click on image to go to the main page">
+      <img src="images/sysk-logo.webp" alt="stuff you should know podcast logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="episodes/episodes.html">Episodes</a></li>
+      </ul>
+    </nav>
+  </header>
 
 
+  <main>
 
-  <!-- Add an element that represents the main content of the page --> 
+    <section>
+      <h1>Stuff You Should Know Podcast</h1>
+    </section>
 
-    <!-- Main heading for the page -->
-    Stuff You Should Know Podcast
-
-    <!-- Include a tag that groups the 'About' and 'Facts' content -->
+    <section>
+    <h1>About the Podcast</h1>
       
-      <!-- Section heading -->
-      About the Podcast
-      
-      Stuff You Should Know, often abbreviated as SYSK, is a free, award-winning podcast and video series published by the HowStuffWorks website and hosted by Josh Clark and Charles W. "Chuck" Bryant, both writers at HowStuffWorks.
-      
-      The podcast, released every Tuesday and Thursday, educates listeners on a wide variety of topics, often using popular culture as a reference giving the podcast comedic value.
+      <p>
+        Stuff You Should Know, often abbreviated as SYSK, is a free, award-winning podcast and video series published by the HowStuffWorks website and hosted by Josh Clark and Charles W. "Chuck" Bryant, both writers at HowStuffWorks.
+      </p>
 
-      <!-- Section sub-heading, followed by a list -->
-      Facts about the show:
-
-      -Show is downloaded more than 1 million times per week.
-      -Hasbro released a special edition of Trivial Pursuit: The Stuff You Should Know Edition based on episodes from the podcast.
-      -Josh and Chuck receive over 350 pieces of fan mail a week.
-      
-      <!-- Link to about.html -->
-      Read more about the show and hosts
-
+      <p>
+        The podcast, released every Tuesday and Thursday, educates listeners on a wide variety of topics, often using popular culture as a reference giving the podcast comedic value.
+      </p>
+    
+      <article>
+        <h2>Facts about the show:</h2>
+        <ul>
+          <li>Show is downloaded more than 1 million times per week.</li>
+          <li>Hasbro released a special edition of Trivial Pursuit: The Stuff You Should Know Edition based on episodes from the podcast.</li>
+          <li>Josh and Chuck receive over 350 pieces of fan mail a week.</li>
+        </ul>
+        
+        <a href ="about.html">Read more about the show and hosts</a>
+      </article>
+    </section>
 
     <!-- Include a tag that groups the 'Featured Episodes' content -->  
 
@@ -86,7 +94,7 @@
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         Learn more
-      
+  </main>
 
 
   <!-- Include the tag for footer content -->
